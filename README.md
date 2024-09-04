@@ -13,7 +13,7 @@ FlowMQ is a lightweight, high-performance message queue system designed for effi
 
 ### Prerequisites
 
-- C++ compiler with C++11 support
+- C++ compiler with C++17 support
 - CMake 3.10 or higher
 
 ### Building
@@ -22,6 +22,12 @@ FlowMQ is a lightweight, high-performance message queue system designed for effi
 mkdir build && cd build
 cmake ..
 make
+```
+
+### Run
+
+```bash
+./flowmq
 ```
 
 ## Contributing

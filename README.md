@@ -1,22 +1,13 @@
 # FlowMQ
 
-FlowMQ is a lightweight, high-performance message queue system designed for efficient data streaming and processing.
+FlowMQ is an experimental MQTT broker written in C++ with cursor.
 
-## Features
-
-- Fast and reliable message delivery
-- Scalable architecture
-- Support for multiple protocols
-- Easy integration with existing systems
-
-## Getting Started
-
-### Prerequisites
+## Prerequisites
 
 - C++ compiler with C++17 support
 - CMake 3.10 or higher
 
-### Building
+## Building
 
 ```bash
 mkdir build && cd build
@@ -24,7 +15,7 @@ cmake ..
 make
 ```
 
-### Run
+## Run
 
 ```bash
 ./flowmq
